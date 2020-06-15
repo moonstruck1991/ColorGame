@@ -87,7 +87,7 @@ for(var i =0; i<squares.length;i++){
     squares[i].addEventListener("click",function(){
         if(this.style.backgroundColor !== pickedColor){
             this.style.backgroundColor = "#232323";
-            messageDisplay.textContent = "Try Again :("
+            messageDisplay.textContent = "Try Again"
         }
         else{
             messageDisplay.textContent = "Correct!!!";
